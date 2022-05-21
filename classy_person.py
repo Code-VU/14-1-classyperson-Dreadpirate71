@@ -16,7 +16,7 @@ class Person:
     def __init__(self, passedInAge, passedInName):
         self.name = passedInName
         self.age = passedInAge
-        print(self.age)
+        #print(self.age)
     
     #method to print 
 
