@@ -12,16 +12,16 @@ class Person:
     age = 0
     name = ""
 
-    #initialize name and age
-    def __init__(self, age, name):
-        self.name = name
-        self.age = age
+    #constructor
+    def __init__(self, passedInAge, passedInName):
+        self.name = passedInName
+        self.age = passedInAge
         print(self.age)
 
     #method to increase age by 1
     def increase_age(self):
-        self.age = int(self.age) + 1
-        print(self.age)
+        agePlusOne = int(self.age) + 1
+        print(agePlusOne)
 
     #method to print greeting
     def say_greeting(self):
@@ -34,7 +34,10 @@ class Person:
             print (count)
             count = count + 1
 
-
+p1 = Person(50,"James")
+p1.count_to_age()
+p1.increase_age()
+p1.say_greeting()
 
 
 
