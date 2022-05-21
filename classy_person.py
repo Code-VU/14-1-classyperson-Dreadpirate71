@@ -27,13 +27,13 @@ class Person:
 
     #method to print greeting
     def say_greeting(self):
-        print("Hello world! My name is", self.name)
-    
+        #print("Hello world! My name is", self.name)
+        pass
     #method to count up to age by 1
     def count_to_age(self):
         count = 1
         while count <= int(self.age):
-            print (count)
+            #print (count)
             count = count + 1
 
 
