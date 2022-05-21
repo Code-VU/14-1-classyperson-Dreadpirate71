@@ -36,11 +36,8 @@ class Person:
     def count_to_age(self):
         count = 1
         while count <= int(self.age):
-            #print (count)
+            print (count)
             count = count + 1
-
-j = Person(50, "James")
-j.say_greeting()
 
 
 # You won't need to call anything here.
