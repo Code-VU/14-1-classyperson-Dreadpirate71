@@ -13,7 +13,7 @@ class Person:
     name = ""
 
     #initialize name and age
-    def __init__(self, name, age):
+    def __init__(self, age, name):
         self.name = name
         self.age = age
         print(self.age)
@@ -33,6 +33,7 @@ class Person:
         while count <= int(self.age):
             print (count)
             count = count + 1
+
 
 
 
