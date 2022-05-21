@@ -16,10 +16,11 @@ class Person:
     def __init__(self, name, age):
         self.name = name
         self.age = age
+        print(self.age)
 
     #method to increase age by 1
     def increase_age(self):
-        self.age = self.age + 1
+        self.age = int(self.age) + 1
         print(self.age)
 
     #method to print greeting
@@ -29,9 +30,10 @@ class Person:
     #method to count up to age by 1
     def count_to_age(self):
         count = 1
-        while count <= self.age:
+        while count <= int(self.age):
             print (count)
             count = count + 1
+
 
 
 
