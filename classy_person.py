@@ -36,10 +36,7 @@ class Person:
             print (count)
             count = count + 1
 
-chuck = Person(56, "Charles")
-chuck.increase_age()
-chuck.say_greeting()
-chuck.count_to_age()
+
 
 
 
