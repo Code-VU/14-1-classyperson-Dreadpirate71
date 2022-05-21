@@ -26,7 +26,7 @@ class Person:
         #print(self.age)
 
     #method to print greeting
-    def say_greeting(self):
+    def say_greeting(self.name):
         print(self.name.lstrip())
         #print(f'Hello world! My name is', self.name)
     
