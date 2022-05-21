@@ -23,7 +23,7 @@ class Person:
     #method to increase age by 1
     def increase_age(self):
         self.age = int(self.age) + 1
-        print(self.age)
+        #print(self.age)
 
     #method to print greeting
     def say_greeting(self):
