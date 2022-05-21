@@ -27,10 +27,10 @@ class Person:
 
     #method to print greeting
     def say_greeting(self):
-        #personName = self.name.strip('\n')
+        self.name = self.name.strip('\n')
 
         #print(personName)
-        print(f'Hello world! My name is', self.name,"!")
+        print(f'Hello world! My name is {self.name}!')
     
     #method to count up to age by 1
     def count_to_age(self):
